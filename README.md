@@ -6,7 +6,7 @@ General Engineering Endevours in progress and currently completed.
 
 - **Orbital mechanics simulation:** MATLAB trajectory propagation using two-body dynamics and Earth's J₂ perturbation model.
 - **Automated golf ball sorter:** completed Arduino project using TCRT5000 IR sensing, a TCS3200 color sensor, MG996R servos, and a three-basket output arrangement. Includes CAD and build descriptions.
-- **Hybrid rocket test stand:** modular test-stand design with load-cell thrust measurement and an initial / revised FEA-driven structural redesign.
+- **Hybrid rocket motor test stand (Nittany Rocket Labs):** modular, load-cell-equipped stand designed around a motor clamp envelope up to 8 in. diameter and motors producing up to 2.5 kN thrust. The redesigned structure was evaluated in FEA under a 5 kN applied load after the initial model identified a critical failure location.
 - **Thin-walled structural analysis:** mechanics-of-materials study of shear flow and structural response.
 - **Mechanical design work:** overview of CAD and design workflow.
 
@@ -30,6 +30,6 @@ Then visit http://localhost:8000.
 
 ## Project-content accuracy
 
-The hybrid rocket test stand page describes pre-fabrication FEA and redesign. It does not claim physical hot-fire testing. Numerical performance results, exact loads, material properties, mesh settings, and safety-factor values are not included because they were not supplied in the project portfolio source.
+The hybrid rocket test stand page describes pre-fabrication FEA and redesign. It does not claim physical hot-fire testing. The 5 kN value is the applied load in the redesigned FEA model, compared with the motor's stated 2.5 kN maximum thrust. This comparison is not presented as a certified factor of safety or physical proof-load result. Material properties, mesh settings, and detailed boundary conditions are not listed because they were not supplied.
 
 The golf-ball sorter bill of materials follows the quantities listed in the supplied engineering portfolio. Add a final wiring diagram, source code, and measured sorting test data as those become available.
