@@ -140,3 +140,16 @@ body{background:var(--bg);color:var(--text)}
 /* Keep the phone number directly below its Call me link in the contact row. */
 .contact-phone-group{display:flex;flex-direction:column;align-items:center;gap:0}
 .contact-phone{display:block;margin:8px 0 0;color:#60717b;font:10px var(--mono);letter-spacing:.08em}
+
+/* Hybrid rocket test-stand case-study specifications and workflow */
+.stand-spec-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:8px 0 42px}
+.stand-spec{background:#fff;border:1px solid #d5e0e3;border-radius:3px;padding:17px 15px;min-width:0}
+.stand-spec-label{display:block;font:8px var(--mono);letter-spacing:.1em;color:#267c76;margin-bottom:9px}
+.stand-spec strong{display:block;font-size:clamp(24px,3vw,34px);line-height:1.15;letter-spacing:-.05em;color:#17242c}
+.stand-spec small{display:block;margin-top:9px;font-size:10px;line-height:1.55;color:#60717b}
+.stand-load-equation{display:inline-block;margin:8px 0 18px;padding:14px 18px;background:#eaf1f2;border:1px solid #d5e0e3;color:#76511a;font:700 18px var(--mono);letter-spacing:.03em}
+.stand-workflow{padding-left:21px}
+.stand-workflow li{padding-left:7px;margin:0 0 10px}
+.stand-workflow li::marker{font-family:var(--mono);color:#267c76}
+@media(max-width:800px){.stand-spec-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.stand-spec-grid{gap:8px}.stand-spec{padding:13px 11px}.stand-spec small{font-size:9px}}
