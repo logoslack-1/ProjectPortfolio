@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Logan Slacktish — aerospace engineering portfolio featuring orbital mechanics, structural analysis, propulsion interests, and engineering design projects.">
+  <meta name="theme-color" content="#0a0d12">
+  <title>Logan Slacktish | Aerospace Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/main.js"></script>
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Logan Slacktish home"><span class="mark">LS</span><span>LOGAN SLACKTISH<span class="wordmark-sub">ENGINEERING PORTFOLIO</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#work">Projects</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#contact" class="nav-contact">Get in touch <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> AEROSPACE ENGINEERING · PENN STATE</div>
+        <h1>Building at the<br><span class="gradient-text">edge of flight.</span></h1>
+        <p class="hero-lede">I'm Logan — an aerospace engineering student interested in structural integrity, propulsion, and the mechanics that make flight possible.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span>↓</span></a><a class="text-link" href="#contact">Let's connect <span>↗</span></a></div>
+        <div class="hero-meta"><span>BASED IN PENNSYLVANIA</span><span>OPEN TO ENGINEERING OPPORTUNITIES</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract aerospace engineering orbital visualization">
+        <div class="visual-grid"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="planet"><div class="planet-shade"></div></div><div class="satellite"><span></span></div>
+        <div class="visual-label label-top">FIG. 001 / ORBITAL MECHANICS</div><div class="visual-label label-bottom">STRUCTURE · MOTION · SYSTEMS</div>
+        <div class="coordinate">40°47' N<br>77°51' W</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Technical interests"><div class="ticker-track"><span>STRUCTURAL MECHANICS</span><i>✳</i><span>PROPULSION</span><i>✳</i><span>ASTRODYNAMICS</span><i>✳</i><span>FEA & CFD</span><i>✳</i><span>EXPERIMENTAL TESTING</span><i>✳</i><span>STRUCTURAL MECHANICS</span><i>✳</i><span>PROPULSION</span><i>✳</i><span>ASTRODYNAMICS</span><i>✳</i><span>FEA & CFD</span><i>✳</i></div></section>
+
+    <section class="section-wrap section" id="work">
+      <div class="section-heading"><div><div class="eyebrow">01 / SELECTED WORK</div><h2>Engineering in action<span class="accent">.</span></h2></div><p>A selection of technical projects exploring analysis, simulation, and hands-on design.</p></div>
+      <div class="project-grid">
+        <a class="project-card project-feature" href="projects/orbital-mechanics.html">
+          <div class="project-art art-orbit"><div class="art-earth"></div><div class="art-path"></div><div class="art-satellite">◆</div><span class="art-code">MATLAB / ASTRODYNAMICS</span></div>
+          <div class="project-info"><div><span class="project-type">01 — COMPUTATIONAL ANALYSIS</span><h3>Orbital Mechanics Simulation</h3><p>Numerical propagation of spacecraft trajectories with two-body dynamics and J₂ perturbations.</p></div><span class="arrow-circle">↗</span></div>
+          <div class="tag-row"><span>MATLAB</span><span>ODE SOLVERS</span><span>J₂ PERTURBATION</span></div>
+        </a>
+        <a class="project-card" href="projects/golf-ball-sorter.html">
+          <div class="project-art art-sorter"><div class="conveyor"><b></b><b></b><b></b><b></b><b></b></div><div class="ball ball-red"></div><div class="ball ball-blue"></div><div class="sort-arm"></div><span class="art-code">ARDUINO / AUTOMATION</span></div>
+          <div class="project-info"><div><span class="project-type">02 — MECHATRONICS</span><h3>Automated Golf Ball Sorter</h3><p>A sensor-driven sorting system using color detection, servo actuation, and control logic.</p></div><span class="arrow-circle">↗</span></div>
+          <div class="tag-row"><span>ARDUINO</span><span>SENSORS</span><span>SERVO CONTROL</span></div>
+        </a>
+        <a class="project-card" href="projects/structural-analysis.html">
+          <div class="project-art art-structure"><svg viewBox="0 0 500 250" role="img" aria-label="Technical beam and shear-flow diagram"><path d="M65 190 L250 40 L435 190 Z M65 190 L435 190 M250 40 L250 190 M65 190 L250 115 L435 190" fill="none" stroke="#7fd9d0" stroke-width="1.6"/><path d="M65 190 L65 220 M435 190 L435 220 M250 40 L250 15" stroke="#7fd9d0" stroke-dasharray="4 5"/><circle cx="250" cy="115" r="5" fill="#e5b66a"/><path d="M65 190 Q120 120 185 100" fill="none" stroke="#e5b66a" stroke-width="2"/></svg><span class="art-code">SOLID MECHANICS / SECTION ANALYSIS</span></div>
+          <div class="project-info"><div><span class="project-type">03 — STRUCTURAL MECHANICS</span><h3>Thin-Walled Section Analysis</h3><p>Applying mechanics of materials to shear flow, stress distribution, and structural behavior.</p></div><span class="arrow-circle">↗</span></div>
+          <div class="tag-row"><span>MECHANICS</span><span>SHEAR FLOW</span><span>MATLAB</span></div>
+        </a>
+        <a class="project-card" href="projects/mechanical-design.html">
+          <div class="project-art art-cad"><div class="cad-part cad-a"></div><div class="cad-part cad-b"></div><div class="cad-part cad-c"></div><span class="art-code">CAD / DESIGN PROCESS</span></div>
+          <div class="project-info"><div><span class="project-type">04 — DESIGN & FABRICATION</span><h3>Mechanical Design Work</h3><p>Selected CAD, prototyping, and design explorations focused on functional mechanical systems.</p></div><span class="arrow-circle">↗</span></div>
+          <div class="tag-row"><span>SOLIDWORKS</span><span>CAD</span><span>PROTOTYPING</span></div>
+        </a>
+      </div>
+      <p class="project-note">Project pages describe academic and personal work. Detailed reports, source files, and validated results can be added as each project is finalized.</p>
+    </section>
+
+    <section class="about-section" id="about"><div class="section-wrap about-layout">
+      <div><div class="eyebrow">02 / ABOUT</div><h2>Curiosity, backed<br>by <span class="gradient-text">calculation.</span></h2></div>
+      <div class="about-copy"><p class="about-lede">I’m pursuing aerospace engineering at Penn State, with a focus on understanding how complex systems behave under demanding physical conditions.</p><p>My interests sit at the intersection of structural mechanics, propulsion, and flight dynamics. I enjoy moving between analytical work and practical engineering — from deriving governing equations and building MATLAB simulations to testing hardware and refining mechanical designs.</p><p>I’m especially interested in defense and aerospace applications where reliability, performance, and engineering judgment matter.</p>
+      <div class="focus-grid"><div><span>01</span><b>Structural integrity</b><small>Stress, deformation & FEA</small></div><div><span>02</span><b>Propulsion systems</b><small>Thermal-fluid behavior</small></div><div><span>03</span><b>Flight mechanics</b><small>Dynamics & astrodynamics</small></div><div><span>04</span><b>Engineering tools</b><small>MATLAB, CAD & testing</small></div></div></div>
+    </div></section>
+
+    <section class="section-wrap section" id="experience">
+      <div class="section-heading"><div><div class="eyebrow">03 / EXPERIENCE & INVOLVEMENT</div><h2>Learning by doing<span class="accent">.</span></h2></div><p>Building a foundation through field engineering, student teams, and technical coursework.</p></div>
+      <div class="timeline">
+        <div class="timeline-item"><div class="timeline-date">CURRENT</div><div><h3>Penn State — Aerospace Engineering</h3><p class="timeline-sub">Undergraduate student · University Park, PA</p><p>Developing a foundation in aerospace mechanics, dynamics, fluid systems, and computational engineering.</p></div><span class="timeline-mark"></span></div>
+        <div class="timeline-item"><div class="timeline-date">STUDENT TEAM</div><div><h3>Nittany Rocket Labs</h3><p class="timeline-sub">Propulsion Team</p><p>Collaborating with a student engineering team focused on rocketry and propulsion-system development.</p></div><span class="timeline-mark"></span></div>
+        <div class="timeline-item"><div class="timeline-date">PROFESSIONAL</div><div><h3>PennDOT — Engineering Intern</h3><p class="timeline-sub">Project engineering · Quality assurance · Field operations</p><p>Supporting infrastructure projects through contractor plan reviews, structural formwork loading calculations, material-testing quality assurance, field documentation, and daily reporting.</p></div><span class="timeline-mark"></span></div>
+        <div class="timeline-item"><div class="timeline-date">MEMBERSHIP</div><div><h3>American Institute of Aeronautics and Astronautics</h3><p class="timeline-sub">AIAA · Student member</p><p>Engaging with the aerospace engineering community and exploring technical and professional development opportunities.</p></div><span class="timeline-mark"></span></div>
+      </div>
+    </section>
+
+    <section class="skills-section"><div class="section-wrap"><div class="eyebrow">04 / TECHNICAL TOOLKIT</div><h2>Tools of the trade<span class="accent">.</span></h2><div class="skills-grid"><div><h3>COMPUTATIONAL</h3><p>MATLAB <span>·</span> Numerical Methods <span>·</span> ODE Solvers <span>·</span> Data Analysis</p></div><div><h3>ENGINEERING ANALYSIS</h3><p>Statics <span>·</span> Mechanics of Materials <span>·</span> Orbital Mechanics <span>·</span> Fluid Mechanics</p></div><div><h3>DESIGN & HARDWARE</h3><p>SolidWorks <span>·</span> CAD <span>·</span> Arduino <span>·</span> Prototyping</p></div><div><h3>DEVELOPING SKILLS</h3><p>Finite Element Analysis <span>·</span> Computational Fluid Dynamics <span>·</span> Experimental Methods</p></div></div><p class="skills-footnote">Skills reflect coursework, project exposure, and areas of continued development; proficiency varies by tool and topic.</p></div></section>
+
+    <section class="contact-section section-wrap" id="contact"><div class="contact-orbit"></div><div class="eyebrow">05 / CONTACT</div><h2>Let's build<br>what's <span class="gradient-text">next.</span></h2><p>Interested in aerospace research, engineering internships, or collaborating on a technical project? I'd be glad to connect.</p><div class="contact-actions"><a class="button button-primary" href="mailto:logoslack@gmail.com">Email me <span>↗</span></a><a class="button button-outline" href="https://github.com/logoslack-1" target="_blank" rel="noreferrer">GitHub profile <span>↗</span></a></div></section>
+  </main>
+  <footer class="footer"><a class="wordmark" href="#home"><span class="mark">LS</span><span>LOGAN SLACKTISH<span class="wordmark-sub">AEROSPACE ENGINEERING</span></span></a><span>DESIGNED & BUILT WITH ENGINEERING IN MIND</span><a href="#home">BACK TO TOP ↑</a><small>© <span id="year"></span> LOGAN SLACKTISH</small></footer>
+</body>
+</html>
