@@ -31,3 +31,5 @@
 .art-rocket .rocket-load{position:absolute;right:9%;top:35%;font:8px var(--mono);color:#e5b66a;letter-spacing:.08em}
 .single-gallery{grid-template-columns:1fr}
 .single-gallery figure:first-child{grid-column:auto}
+
+.contact-phone{font:10px var(--mono);color:#8e9ca6;letter-spacing:.08em;margin-top:12px}
