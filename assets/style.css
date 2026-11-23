@@ -32,7 +32,7 @@
 .single-gallery{grid-template-columns:1fr}
 .single-gallery figure:first-child{grid-column:auto}
 
-.contact-phone{font:10px var(--mono);color:#8e9ca6;letter-spacing:.08em;margin-top:12px}
+.contact-phone{font:10px var(--mono);color:#8e9ca6;letter-spacing:.08em;margin-top:8px}.contact-phone-group{display:flex;flex-direction:column;align-items:center;gap:0}
 
 
 /* LIGHT THEME — shared by the homepage and every project case study */
@@ -136,3 +136,7 @@ body{background:var(--bg);color:var(--text)}
   /* Keep the selected light appearance regardless of the device's theme. */
   body{background:var(--bg);color:var(--text)}
 }
+
+/* Keep the phone number directly below its Call me link in the contact row. */
+.contact-phone-group{display:flex;flex-direction:column;align-items:center;gap:0}
+.contact-phone{display:block;margin:8px 0 0;color:#60717b;font:10px var(--mono);letter-spacing:.08em}
