@@ -1,6 +1,6 @@
 # Logan Slacktish — Engineering Portfolio
 
-A dark, responsive personal portfolio for aerospace engineering projects and experience.
+General Engineering Endevours in progress and currently completed.
 
 ## Projects currently featured
 
