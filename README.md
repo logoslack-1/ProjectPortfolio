@@ -2,6 +2,14 @@
 
 A dark, responsive personal portfolio for aerospace engineering projects and experience.
 
+## Projects currently featured
+
+- **Orbital mechanics simulation:** MATLAB trajectory propagation using two-body dynamics and Earth's J₂ perturbation model.
+- **Automated golf ball sorter:** completed Arduino project using TCRT5000 IR sensing, a TCS3200 color sensor, MG996R servos, and a three-basket output arrangement. Includes CAD and build descriptions.
+- **Hybrid rocket test stand:** modular test-stand design with load-cell thrust measurement and an initial / revised FEA-driven structural redesign.
+- **Thin-walled structural analysis:** mechanics-of-materials study of shear flow and structural response.
+- **Mechanical design work:** overview of CAD and design workflow.
+
 ## Preview locally
 
 Open `index.html` in a browser, or run a local static server from this directory:
@@ -14,24 +22,14 @@ Then visit http://localhost:8000.
 
 ## Publish with GitHub Pages
 
-1. Open the repository **Settings → Pages**.
+1. Open repository **Settings → Pages**.
 2. Under **Build and deployment**, choose **Deploy from a branch**.
 3. Select branch **main** and folder **/(root)**, then Save.
-4. Wait for the Pages deployment to complete. The project site URL will be:
+4. The project site URL is:
    https://logoslack-1.github.io/ProjectPortfolio/
 
-## Structure
+## Project-content accuracy
 
-- `index.html` — homepage
-- `assets/style.css` — visual system and responsive layout
-- `assets/main.js` — mobile navigation and footer year
-- `projects/` — individual project pages
+The hybrid rocket test stand page describes pre-fabrication FEA and redesign. It does not claim physical hot-fire testing. Numerical performance results, exact loads, material properties, mesh settings, and safety-factor values are not included because they were not supplied in the project portfolio source.
 
-## Personalization checklist
-
-- Add project photos, CAD screenshots, MATLAB plots, and source-code links.
-- Replace project-page update notes with final results and validated figures.
-- Add a LinkedIn URL if you want it included.
-- Add a downloadable resume PDF if desired.
-
-The project descriptions are written to avoid claiming unverified numerical results. Update them as each project is finalized.
+The golf-ball sorter bill of materials follows the quantities listed in the supplied engineering portfolio. Add a final wiring diagram, source code, and measured sorting test data as those become available.
